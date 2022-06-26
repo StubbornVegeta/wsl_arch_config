@@ -5,7 +5,8 @@ sudo pacman -S git
 ```
 ## Clone Repos
 ```bash 
-git clone --recursive https://github.com/stubbornvegeta/wsl_arch_config.git
+cd ~
+git clone --recursive https://github.com/stubbornvegeta/wsl_arch_config.git .config
 ```
 
 ## Package Manager Config
