@@ -6,6 +6,6 @@
     path = ranger
     url = https://github.com/stubbornvegeta/ranger.git
 
-[submodule "zsh-autosuggestions"]
+[submodule "zsh/plugins/zsh-autosuggestions"]
     path = zsh/plugins/zsh-autosuggestions
     url = https://github.com/zsh-user/zsh-autosuggestions.git
