@@ -1,6 +1,11 @@
+
 ## Install Git
 ```bash 
 sudo pacman -S git
+```
+## Clone Repos
+```bash 
+git clone --recursive https://github.com/stubbornvegeta/wsl_arch_config.git
 ```
 
 ## Package Manager Config
