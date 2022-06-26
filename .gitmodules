@@ -1,0 +1,7 @@
+[submodule "nvim"]
+    path = nvim
+    url = https://github.com/stubbornvegeta/nvim.git
+
+[submodule "ranger"]
+    path = ranger
+    url = https://github.com/stubbornvegeta/ranger.git
