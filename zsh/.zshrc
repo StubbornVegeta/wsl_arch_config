@@ -111,7 +111,14 @@ source $ZSH/oh-my-zsh.sh
 
 export RANGER_LOAD_DEFAULT_RC=false
 
-source ~/.config/zsh/module/proxy.zsh
+if [ $(uname -r | sed -n 's/.*\( *Microsoft *\).*/\1/ip') ];
+then
+    source ~/.config/zsh/module/proxy.zsh
+    echo "setproxy: use windows proxy"
+else
+    echo "set your proxy"
+    # export {http,https}_proxy="127.0.0.1:xxxx"    # set proxy
+fi
 source ~/.config/zsh/module/fzf.zsh
 source ~/.config/zsh/module/aliases.zsh
 # source ~/.config/zsh/module/vi.zsh
