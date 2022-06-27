@@ -20,6 +20,6 @@ sudo pacman -S archlinuxcn-keyring
 
 ## Dependences
 ```bash 
-sudo pacman -S neovim zsh oh-my-zsh-git fd ripgrep bat fzf yay ranger tmux
+sudo pacman -S neovim zsh oh-my-zsh-git fd ripgrep bat fzf yay ranger tmux gdb
 ```
 
