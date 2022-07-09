@@ -1,6 +1,9 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/vegeta/.config
 - /home/vegeta/.config/nvim
+- /home/vegeta/.config/StartUp
+- /home/vegeta/.config/ranger
 startuppopupversion: 5
 customcommandshistory: []
 hidecommandlog: false
