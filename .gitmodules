@@ -9,3 +9,7 @@
 [submodule "zsh/plugins/zsh-autosuggestions"]
     path = zsh/plugins/zsh-autosuggestions
     url = https://github.com/zsh-users/zsh-autosuggestions.git
+
+[submodule "StartUp"]
+    path = StartUp
+    url = https://github.com/stubbornvegeta/StartUp.git
