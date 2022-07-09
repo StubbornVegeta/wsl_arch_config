@@ -16,6 +16,7 @@ alias ra="ranger"
 alias usbl='source ~/usr_file/script/loadusb.sh'
 alias usbr='source ~/usr_file/script/removeusb.sh'
 # alias ds='. $HOME/.config/dashboard-shell/dashboard-shell-run.sh'
+alias sp='. $HOME/.config/StartUp/StartUp.sh'
 alias lg="lazygit"
 # alias ci="source ~/.config/zsh/conda.zsh"
 # alias c7="source ~/.config/zsh/py37.zsh"
